@@ -299,7 +299,7 @@ body {
 
 .first-section {
   background-color: rgba(255, 255, 255, 0.95);
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("/img/seamless-b_and_w_640.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("..//img/seamless-b_and_w_640.jpg");
   padding: 100px 0px;
 }
 @media (max-width: 900px) {
@@ -313,16 +313,20 @@ body {
   }
 }
 
-.block, .block_c {
+.block,
+.block_c {
   text-align: center;
 }
-.block_c, .block_c_c {
+.block_c,
+.block_c_c {
   background-color: #fff;
 }
-.block__icon, .block_c__icon {
+.block__icon,
+.block_c__icon {
   margin: 0px 0px 30px 0px;
 }
-.block__title, .block_c__title {
+.block__title,
+.block_c__title {
   color: #28323c;
   line-height: 24;
   margin: 0px 0px 30px 0px;
@@ -332,18 +336,21 @@ body {
   letter-spacing: 0.2em;
   text-transform: uppercase;
 }
-.block__text, .block_c__text {
+.block__text,
+.block_c__text {
   color: #50505a;
   font-size: 18px;
   line-height: 32px;
   letter-spacing: 3px;
 }
-.block__text_c, .block_c__text_c {
+.block__text_c,
+.block_c__text_c {
   text-align: justify;
   font-size: 16px;
   line-height: 30px;
 }
-.block__text_c::after, .block_c__text_c::after {
+.block__text_c::after,
+.block_c__text_c::after {
   content: "";
   display: block;
   margin: 30px auto 0px auto;
@@ -352,7 +359,8 @@ body {
   background-color: rgba(80, 80, 90, 0.6);
 }
 @media (max-width: 1500px) {
-  .block__text_c::after, .block_c__text_c::after {
+  .block__text_c::after,
+.block_c__text_c::after {
     margin: 15px auto 0px auto;
   }
 }
@@ -491,7 +499,7 @@ body {
 
 .form {
   background-color: rgba(255, 255, 255, 0.95);
-  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("/img/seamless-b_and_w_640.jpg");
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0.95) 0%, rgba(255, 255, 255, 0.95) 100%), url("..//img/seamless-b_and_w_640.jpg");
 }
 .form__body {
   padding: 100px 0;
