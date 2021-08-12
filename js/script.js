@@ -1,4 +1,4 @@
-
+'use strict'
 //Плавный переход к блоку=============================================
 $("body").on("click","li a", function(e) {
 	e.preventDefault();
@@ -54,4 +54,28 @@ $(window).scroll(function(event) {
 });
 //================================================================
 
-//=========================================================
+//Фиксируем .header при прокрутке вниз========================================================
+
+window.onscroll = function showHeader () {
+
+	var header = document.querySelector('.header');
+	
+	var headerFixed = document.querySelector('.header_fixed');
+
+
+	if(window.pageYOffset > 75){
+		header.classList.add('header_fixed');
+	} else{
+		header.classList.remove('header_fixed');
+	}
+}
+
+// window.onscroll = function showMenu () {
+ 
+
+// 	if (window.pageYOffset > 75) {
+// 		headerFixed.style.display = 'header_fixed';
+// 	} else {
+// 		headerFixed.style.display = 'none';
+// 	}
+//  }
